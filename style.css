@@ -1,0 +1,53 @@
+body{
+	background: url('background.jpg');
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 1425px;
+	height: 350px;
+	margin: auto;
+}
+
+.topnav{
+	width: auto;
+	background-color: white;
+	margin: auto;
+	overflow: auto;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	float: left;
+}
+
+a:link{
+	color: purple;
+	font-family: times new roman;
+	text-transform: uppercase;
+	font-size: 18px;
+	width: 128px;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}	
+
+a:hover{
+    color: white;
+	background-color: purple;
+}
+
+.footer {
+ color: purple;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
